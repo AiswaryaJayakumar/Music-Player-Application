@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4500b51588.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="sub-container">
+
+            <nav>
+                <div class="navbar">
+
+                    <i class="fa-solid fa-angle-left"></i>
+
+                </div>
+
+                <div class="navbar">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+            </nav>
+
+            <div class="center">
+
+                <img src="music.jfif" alt="">
+
+                <h2>Lokiverse-2.0</h2>
+
+                <p>Anirudh Ravichander</p>
+
+            </div>
+
+            <audio id="song">
+                <source src="Lokiverse-2.0-MassTamilan.dev.mp3" type="audio/mpeg">
+            </audio>
+
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+
+                <div>
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+
+                <div onclick="playpause()">
+                    <i  class="fa-solid fa-play" id="play"></i>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js">
+
+    </script>
+    
+</body>
+</html>
